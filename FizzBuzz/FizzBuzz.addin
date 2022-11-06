@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command FizzBuzz</Text>
+    <Description>Some description for FizzBuzz</Description>
+    <Assembly>FizzBuzz.dll</Assembly>
+    <FullClassName>FizzBuzz.Command01Challenge</FullClassName>
+    <ClientId>65069cf9-1310-4418-9306-6a18a83272dc</ClientId>
+    <VendorId>edu.osu.pare</VendorId>
+    <VendorDescription>Just Tiffany from FITS</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application FizzBuzz</Name>
+    <Assembly>FizzBuzz.dll</Assembly>
+    <FullClassName>FizzBuzz.App</FullClassName>
+    <ClientId>19affa60-a4aa-41e2-93ba-146f6433fdab</ClientId>
+    <VendorId>edu.osu.pare</VendorId>
+    <VendorDescription>Just Tiffany from FITS</VendorDescription>
+  </AddIn>
+</RevitAddIns>
